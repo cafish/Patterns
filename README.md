@@ -9,7 +9,7 @@ A few notes:
 ``` 
 pattern.category = self.addSelectedCategory!
 ```
-4. The following codes were used to read data from CoreData based on the cretiria: filtering pattern by selected category
+The following codes were used to read data from CoreData based on the cretiria: filtering pattern by selected category
 ```
 override func viewDidAppear(animated: Bool) {
         super.viewWillAppear(animated)
