@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		6046EE841B2106EF00DCA1AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6046EE831B2106EF00DCA1AB /* AppDelegate.swift */; };
 		6046EE871B2106EF00DCA1AB /* Patterns.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6046EE851B2106EF00DCA1AB /* Patterns.xcdatamodeld */; };
-		6046EE891B2106EF00DCA1AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6046EE881B2106EF00DCA1AB /* ViewController.swift */; };
+		6046EE891B2106EF00DCA1AB /* PatternsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6046EE881B2106EF00DCA1AB /* PatternsViewController.swift */; };
 		6046EE8C1B2106F000DCA1AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6046EE8A1B2106EF00DCA1AB /* Main.storyboard */; };
 		6046EE8E1B2106F000DCA1AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6046EE8D1B2106F000DCA1AB /* Images.xcassets */; };
 		6046EE911B2106F000DCA1AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6046EE8F1B2106F000DCA1AB /* LaunchScreen.xib */; };
 		6046EE9D1B2106F000DCA1AB /* PatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6046EE9C1B2106F000DCA1AB /* PatternsTests.swift */; };
+		6046EEA91B21165600DCA1AB /* shirtPattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6046EEA81B21165600DCA1AB /* shirtPattern.jpg */; };
+		6046EEAD1B21194300DCA1AB /* PatternDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6046EEAC1B21194300DCA1AB /* PatternDetailViewController.swift */; };
+		6046EEAF1B23B48400DCA1AB /* exampleBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6046EEAE1B23B48400DCA1AB /* exampleBack.jpg */; };
+		6046EEB11B23B97E00DCA1AB /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6046EEB01B23B97E00DCA1AB /* ZoomViewController.swift */; };
+		607194171B24052100F4BBCF /* PatternCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607194161B24052100F4BBCF /* PatternCategoryViewController.swift */; };
+		607194191B24F87600F4BBCF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607194181B24F87600F4BBCF /* Category.swift */; };
+		6071941B1B24F87600F4BBCF /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6071941A1B24F87600F4BBCF /* Pattern.swift */; };
+		6071941D1B2506A000F4BBCF /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6071941C1B2506A000F4BBCF /* AddCategoryViewController.swift */; };
+		60A6B3001B23C849003AB919 /* AddPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A6B2FF1B23C849003AB919 /* AddPatternViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +40,22 @@
 		6046EE821B2106EF00DCA1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6046EE831B2106EF00DCA1AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6046EE861B2106EF00DCA1AB /* Patterns.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Patterns.xcdatamodel; sourceTree = "<group>"; };
-		6046EE881B2106EF00DCA1AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6046EE881B2106EF00DCA1AB /* PatternsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsViewController.swift; sourceTree = "<group>"; };
 		6046EE8B1B2106EF00DCA1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6046EE8D1B2106F000DCA1AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6046EE901B2106F000DCA1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6046EE961B2106F000DCA1AB /* PatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6046EE9B1B2106F000DCA1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6046EE9C1B2106F000DCA1AB /* PatternsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTests.swift; sourceTree = "<group>"; };
+		6046EEA81B21165600DCA1AB /* shirtPattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirtPattern.jpg; sourceTree = "<group>"; };
+		6046EEAC1B21194300DCA1AB /* PatternDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternDetailViewController.swift; sourceTree = "<group>"; };
+		6046EEAE1B23B48400DCA1AB /* exampleBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exampleBack.jpg; sourceTree = "<group>"; };
+		6046EEB01B23B97E00DCA1AB /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		607194161B24052100F4BBCF /* PatternCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternCategoryViewController.swift; sourceTree = "<group>"; };
+		607194181B24F87600F4BBCF /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ../Category.swift; sourceTree = "<group>"; };
+		6071941A1B24F87600F4BBCF /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = ../Pattern.swift; sourceTree = "<group>"; };
+		6071941C1B2506A000F4BBCF /* AddCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		60A6B2FF1B23C849003AB919 /* AddPatternViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatternViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +97,17 @@
 		6046EE801B2106EF00DCA1AB /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				6046EEAE1B23B48400DCA1AB /* exampleBack.jpg */,
+				6046EEA81B21165600DCA1AB /* shirtPattern.jpg */,
+				6071941A1B24F87600F4BBCF /* Pattern.swift */,
+				607194181B24F87600F4BBCF /* Category.swift */,
 				6046EE831B2106EF00DCA1AB /* AppDelegate.swift */,
-				6046EE881B2106EF00DCA1AB /* ViewController.swift */,
+				607194161B24052100F4BBCF /* PatternCategoryViewController.swift */,
+				6071941C1B2506A000F4BBCF /* AddCategoryViewController.swift */,
+				6046EE881B2106EF00DCA1AB /* PatternsViewController.swift */,
+				60A6B2FF1B23C849003AB919 /* AddPatternViewController.swift */,
+				6046EEAC1B21194300DCA1AB /* PatternDetailViewController.swift */,
+				6046EEB01B23B97E00DCA1AB /* ZoomViewController.swift */,
 				6046EE8A1B2106EF00DCA1AB /* Main.storyboard */,
 				6046EE8D1B2106F000DCA1AB /* Images.xcassets */,
 				6046EE8F1B2106F000DCA1AB /* LaunchScreen.xib */,
@@ -197,7 +224,9 @@
 			files = (
 				6046EE8C1B2106F000DCA1AB /* Main.storyboard in Resources */,
 				6046EE911B2106F000DCA1AB /* LaunchScreen.xib in Resources */,
+				6046EEAF1B23B48400DCA1AB /* exampleBack.jpg in Resources */,
 				6046EE8E1B2106F000DCA1AB /* Images.xcassets in Resources */,
+				6046EEA91B21165600DCA1AB /* shirtPattern.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +244,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6046EE891B2106EF00DCA1AB /* ViewController.swift in Sources */,
+				6071941B1B24F87600F4BBCF /* Pattern.swift in Sources */,
+				6046EE891B2106EF00DCA1AB /* PatternsViewController.swift in Sources */,
+				6046EEB11B23B97E00DCA1AB /* ZoomViewController.swift in Sources */,
 				6046EE871B2106EF00DCA1AB /* Patterns.xcdatamodeld in Sources */,
+				6046EEAD1B21194300DCA1AB /* PatternDetailViewController.swift in Sources */,
+				60A6B3001B23C849003AB919 /* AddPatternViewController.swift in Sources */,
+				6071941D1B2506A000F4BBCF /* AddCategoryViewController.swift in Sources */,
 				6046EE841B2106EF00DCA1AB /* AppDelegate.swift in Sources */,
+				607194171B24052100F4BBCF /* PatternCategoryViewController.swift in Sources */,
+				607194191B24F87600F4BBCF /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +451,7 @@
 				6046EEA21B2106F000DCA1AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6046EEA31B2106F000DCA1AB /* Build configuration list for PBXNativeTarget "PatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +460,7 @@
 				6046EEA51B2106F000DCA1AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
