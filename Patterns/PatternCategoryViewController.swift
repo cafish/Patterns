@@ -35,8 +35,9 @@ class PatternCategoryViewController: UIViewController, UITableViewDataSource, UI
         var request = NSFetchRequest(entityName: "Category")
         
         // add sorting
-        let sd = NSSortDescriptor(key: "cateName", ascending: true)
-        request.sortDescriptors = [sd]
+        let sd1 = NSSortDescriptor(key: "cateName", ascending: true)
+        let sd2 = NSSortDescriptor(key: "dateCreated", ascending: false)
+        request.sortDescriptors = [sd1, sd2]
         
         var results = context.executeFetchRequest(request, error: nil)
         

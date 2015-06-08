@@ -31,6 +31,16 @@ class AddCategoryViewController: UIViewController {
         var context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext!
         var category = NSEntityDescription.insertNewObjectForEntityForName("Category", inManagedObjectContext: context) as! Category
         category.cateName = self.nameTextField.text
+        
+        category.dateCreated = NSDate()
+        
+        //        let date = category.dateCreated
+        //        let dateFormatter = NSDateFormatter()
+        //        dateFormatter.dateStyle = .MediumStyle
+        //        dateFormatter.timeStyle = .MediumStyle
+        //
+        //        let dateText = dateFormatter.stringFromDate(date)
+        //        println("dateCreated: \(dateText)")
  
         context.save(nil)
         

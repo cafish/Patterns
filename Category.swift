@@ -12,6 +12,7 @@ import CoreData
 class Category: NSManagedObject {
 
     @NSManaged var cateName: String
+    @NSManaged var dateCreated: NSDate
     @NSManaged var pattern: NSSet
 
 }

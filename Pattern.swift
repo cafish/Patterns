@@ -12,6 +12,7 @@ import CoreData
 class Pattern: NSManagedObject {
 
     @NSManaged var backImage: NSData
+    @NSManaged var dateCreated: NSDate
     @NSManaged var frontImage: NSData
     @NSManaged var name: String
     @NSManaged var category: Category
