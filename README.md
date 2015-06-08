@@ -6,8 +6,11 @@ A few notes:
 1. The App was showing an example with CoreData, which has one parent entity (to many) and one child entity (to one)
 2. The relationship was set up at Patterns.xcdatamodeld
 3. In order to filter the pattern by selected category, when adding new pattern, attribute category of pattern was also added:
-        pattern.category = self.addSelectedCategory!
+        
+pattern.category = self.addSelectedCategory!
+
 4. The following codes were used to read data from CoreData based on the cretiria: filtering pattern by selected category
+
 override func viewDidAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
