@@ -44,6 +44,10 @@ class PatternsViewController: UIViewController, UITableViewDataSource, UITableVi
         var context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext!
         var request = NSFetchRequest(entityName: "Pattern")
         
+        // add sorting
+        let sd = NSSortDescriptor(key: "name", ascending: true)
+        request.sortDescriptors = [sd]
+        
         // set up data filtering criteria: Pattern.category == parentEntity
         let pred = NSPredicate(format: "category == %@", self.selectedCategory!)
         request.predicate = pred

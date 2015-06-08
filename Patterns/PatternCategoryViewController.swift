@@ -33,6 +33,11 @@ class PatternCategoryViewController: UIViewController, UITableViewDataSource, UI
         // read data from core data
         var context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext!
         var request = NSFetchRequest(entityName: "Category")
+        
+        // add sorting
+        let sd = NSSortDescriptor(key: "cateName", ascending: true)
+        request.sortDescriptors = [sd]
+        
         var results = context.executeFetchRequest(request, error: nil)
         
         if results != nil {
